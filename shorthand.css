@@ -1,0 +1,102 @@
+
+
+
+.contenedor {
+    background-color: #000;
+    background-image: url(imagen.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    background: #000 url(imagen.png) no-repeat right fixed;
+}
+
+
+
+.contenedor {
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: 1em;
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    font: bold italic small-caps 1em/1.6 Verdana, sans-serif;
+}
+
+
+
+.contenedor {
+    margin-top: 2em;
+    margin-right: 1.5em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    margin: 2em 1.5em 2em 1em;
+}
+
+
+
+.contenedor {
+    padding-top: 2em;
+    padding-right: 1.5em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    padding: 2em 1.5em 2em 1em;
+}
+
+
+
+.contenedor{
+    top: 10px;
+    right: 20px;
+    bottom: 15px;
+    left: 20px;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    inset: 10px, 20px, 15px, 20px;
+}
+
+
+
+.contenedor{
+    transition-property: extend;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 500ms;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    transition: extend 1s ease-in-out 500ms;
+}
+
+
+
+.contenedor{
+    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+}
+
+/* CON SHORTHAND */
+.contenedor {
+    text-decoration: red underline dashed 1px;
+}
+
